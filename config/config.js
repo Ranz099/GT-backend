@@ -4,8 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
-  MONGODB_URI: process.env.MONGODB_URI || 'mongodb+srv://iec2021078:shivam@cluster0.au7ls.mongodb.net/',
-    // mongodb+srv://iec2021078:shivam@cluster0.au7ls.mongodb.net/
+  MONGODB_URI: process.env.MONGODB_URI || 'mongodb+srv://aranjan8172:ranjan123@cluster0.dadkd.mongodb.net/',
   NODE_ENV: process.env.NODE_ENV || 'development',
   PORT: process.env.PORT || 5000,
   JWT_SECRET: process.env.JWT_SECRET,
